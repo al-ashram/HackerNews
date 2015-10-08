@@ -12,6 +12,7 @@ def initialize(doc)
 end
 
 def comments
+  #this displays array
   @comments_array
 end
 
