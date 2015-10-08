@@ -3,6 +3,7 @@ class Post
 attr_reader :title, :url, :points, :item_id
 
 def initialize(doc)
+  #initializes with instances classes
   @doc = doc
   @title = doc.css("title").text
   @url = doc.css("head link")[0]["href"]
